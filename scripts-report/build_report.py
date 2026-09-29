@@ -133,7 +133,7 @@ def build():
     add_para(doc, "Blockchain Mini Project Semester VII in degree of", size=12, align="center", space_after=0, line_spacing=1.15)
     add_para(doc, "Bachelor of Computer Engineering", size=12, align="center", space_after=12, line_spacing=1.15)
     add_para(doc, "BY", size=12, align="center", space_after=6, line_spacing=1.0)
-    for name in ["Riya Jha (47)", "Rugved Khandake (60)"]:
+    for name in ["Riya Jha (47)", "Rugved Khandake (60)", "Gaurav Lad (61)"]:
         add_para(doc, name, size=13, bold=True, align="center", space_after=2, line_spacing=1.15)
     add_para(doc, "", space_after=8)
     add_para(doc, "Guide", size=12, align="center", space_after=2, line_spacing=1.0)
@@ -159,7 +159,7 @@ def build():
             ("This project report entitled ", False),
             ("\u201cDecentralized Voting System\u201d", True),
             (" by ", False),
-            ("Ms. Riya Jha (47) and Mr. Rugved Khandake (60)", True),
+            ("Ms. Riya Jha (47), Mr. Rugved Khandake (60) and Mr. Gaurav Lad (61)", True),
             (
                 " is approved for the Mini Project Semester VII project work of B.E CMPN at Shree L.R.Tiwari College of Engineering, in the academic year 2026-2027.",
                 False,
@@ -184,7 +184,7 @@ def build():
         "has not been taken when needed."
     )
     add_para(doc, decl, size=12, align="justify", space_after=36, line_spacing=1.5)
-    for name in ["Ms. Riya Jha (47)", "Mr. Rugved Khandake (60)"]:
+    for name in ["Ms. Riya Jha (47)", "Mr. Rugved Khandake (60)", "Mr. Gaurav Lad (61)"]:
         add_para(doc, "________________________", size=12, align="right", space_before=18, space_after=0, line_spacing=1.0)
         add_para(doc, "Signature", size=11, align="right", space_after=0, line_spacing=1.0)
         add_para(doc, name, size=12, bold=True, align="right", space_after=6, line_spacing=1.15)

@@ -2,7 +2,7 @@
 
 Blockchain Mini Project (Semester VII) — owner creates an on-chain election; any wallet votes once; owner ends the election and the winner is published transparently.
 
-**Team:** Riya Jha (47), Rugved Khandake (60)  
+**Team:** Riya Jha (47), Rugved Khandake (60), Gaurav Lad (61)  
 **College:** Shree L. R. Tiwari College Of Engineering · **Guide:** Asst. Prof. Manasi Churi
 
 ## Prerequisites
