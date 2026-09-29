@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Decentralized Voting System</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Decentralized Voting System</h1>
+    <p class="subtitle">Blockchain Mini Project — transparent on-chain elections</p>
+    <div class="wallet-bar">
+      <button id="connectBtn">Connect Wallet</button>
+      <span id="accountLabel" class="muted">Not connected</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="card" id="electionCard">
+      <div class="row">
+        <h2 id="electionTitle">Election</h2>
+        <button id="refreshBtn" type="button" class="secondary">Refresh</button>
+      </div>
+      <p id="electionMeta" class="muted">Loading…</p>
+      <div id="candidates" class="candidates"></div>
+      <p id="voteStatus" class="status"></p>
+    </section>
+
+    <section class="card" id="ownerCard">
+      <h2>Owner Controls</h2>
+      <p class="muted">Only the contract owner can end the election.</p>
+      <button id="endBtn" type="button" class="danger" disabled>End Election</button>
+      <p id="ownerStatus" class="status"></p>
+      <div id="winnerBox" class="winner hidden"></div>
+    </section>
+
+    <section class="card help">
+      <h2>How to demo (Hardhat)</h2>
+      <ol>
+        <li>Terminal 1: <code>npx hardhat node</code></li>
+        <li>Terminal 2: <code>npx hardhat run scripts/deploy.js --network localhost</code></li>
+        <li>Serve this folder: <code>npx --yes serve frontend -p 3000</code></li>
+        <li>MetaMask → add network localhost <code>http://127.0.0.1:8545</code>, chainId <code>31337</code></li>
+        <li>Import a Hardhat private key from the node output, then Connect → Vote</li>
+        <li>Import Account #0 (owner) to End Election and view the winner</li>
+      </ol>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

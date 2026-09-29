@@ -1,0 +1,16 @@
+{
+  "name": "decentralized-voting-system",
+  "version": "1.0.0",
+  "description": "Decentralized Voting System - Blockchain Mini Project",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost",
+    "smoke": "hardhat run scripts/smoke.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}

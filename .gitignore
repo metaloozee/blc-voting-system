@@ -1,0 +1,11 @@
+node_modules/
+cache/
+artifacts/build-info/
+artifacts/contracts/
+coverage/
+coverage.json
+.env
+.env.*
+*.pem
+.DS_Store
+.venv-report/
